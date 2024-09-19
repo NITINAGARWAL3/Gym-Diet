@@ -1,0 +1,56 @@
+    html,
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .box {
+        /* align-items: center; */
+        text-align: center;
+        /* left: 10px; */
+        /* border: 5px solid black; */
+        /* margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto; */
+        width: 100%;
+        position: relative;
+        color: white;
+        filter: brightness(30%);
+    }
+    
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        color: white;
+        font-weight: bolder;
+        /* height: 70%;
+        width: 100%; */
+    }
+    
+    h1,
+    h3 {
+        color: yellowgreen;
+        font-family: cursive;
+    }
+    
+    @media screen and (max-width1000px) {
+        .box {
+            width: 50%;
+            height: 100%;
+        }
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    @media print {
+        body {
+            font-size: 12pt;
+            color: black;
+        }
+    }
